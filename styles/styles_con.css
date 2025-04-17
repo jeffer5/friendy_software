@@ -1,0 +1,33 @@
+.consulta{
+    
+    margin-left: 30%;
+    margin-top: 4%;
+    width: 40%;
+    border: aquamarine 2px solid;
+    height: 550px;
+    border-radius: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 0 10px #ccc;
+}
+
+#pa{
+    margin-left: 5%;
+}
+
+#ficha{
+    font-size: 25px;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+
+#volver{
+    
+    width: 180px;
+    height: 30px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-top: 4%;
+    margin-left: 46%;
+    
+}

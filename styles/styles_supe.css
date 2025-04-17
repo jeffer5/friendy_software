@@ -1,0 +1,145 @@
+body{
+  text-align: center;
+  font-size: 18px;
+}
+
+.mensaje-exito {
+    background-color: aquamarine;
+    padding: 10px;
+    color: black;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    width: 20%;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 39%;
+    text-align: center;
+  }
+
+  #select-crud{
+
+    margin-top: 3%;
+    width: 180px;
+    height: 30px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+
+  }
+
+  #Consultar{
+    display: flex;
+    margin-top: 2%;
+    border:aquamarine 1px solid;
+    width: 30%;
+    height: 240px;
+    text-align: center;
+    margin-left: 35%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ccc;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  #Listar{
+    display: flex;
+    margin-top: 2%;
+    border:aquamarine 1px solid;
+    width: 30%;
+    height: 180px;
+    text-align: center;
+    margin-left: 35%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ccc;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  #Actualizar{
+    display: flex;
+    margin-top: 2%;
+    border:aquamarine 1px solid;
+    width: 30%;
+    height: 240px;
+    text-align: center;
+    margin-left: 35%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ccc;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  
+  #Eliminar{
+    display: flex;
+    margin-top: 2%;
+    border:aquamarine 1px solid;
+    width: 30%;
+    height: 240px;
+    text-align: center;
+    margin-left: 35%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ccc;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+
+
+
+  #descripcion{
+   
+    margin-top: 6%;
+    margin-bottom: 10%;
+  }
+
+
+  #button-listar{
+
+    width: 180px;
+    height: 30px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+  }
+
+  #button-actualizar{
+
+    width: 180px;
+    height: 30px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+  }
+
+  #button-eliminar{
+
+    width: 180px;
+    height: 30px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+
+  }
+
+  #consu{
+    width: 150px;
+    height: 30px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+  }
+
+  #table{
+    margin-left: -50px;
+  }
+
+  #salir{
+    width: 180px;
+    height: 30px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-top: 4%;
+  }

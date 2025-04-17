@@ -1,0 +1,150 @@
+.reg{
+    display: flex;
+    margin-left: 38%;
+    margin-top: 2%;
+    width: 550px;
+    height: 780px;
+    border: aquamarine 2px solid;
+    border-radius: 20px;
+    justify-content: center;
+    box-shadow: 0 0 10px #ccc;
+}
+
+
+#formu{
+
+    margin: 5%;
+    margin-left: 5%;
+    margin-top: 8%;
+    width: 400px;
+    height: 750px;
+    font-size: 18px;
+}
+
+
+#name{
+    margin-top: 3%;
+    margin-left: 30%;
+    border: none;
+    border-bottom: aquamarine  2px solid;
+
+}
+
+#ape{
+
+    margin-left: 31%;
+    border: none;
+    border-bottom: aquamarine  2px solid;
+}
+
+#tid{
+ 
+    margin-left: 26%;
+    
+}
+
+#ndoc{
+
+    margin-left: 8%;
+    border: none;
+    border-bottom: aquamarine  2px solid;
+}
+
+#tel{
+
+    margin-left: 31%;
+    border: none;
+    border-bottom: aquamarine  2px solid;
+
+}
+
+#usua{
+
+    margin-left: 33%;
+    border: none;
+    border-bottom: aquamarine  2px solid;
+}
+
+#pass{
+
+    margin-left: 26%;
+    border: none;
+    border-bottom: aquamarine  2px solid;
+}
+
+#rol{
+ 
+    margin-left: 50%;
+    
+}
+
+#x{
+    width: 20px;
+    height: 20px;
+    margin-left: 90%;
+    margin-top: 3%;
+}
+
+#volver{
+
+    width: 180px;
+    height: 30px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-top: 2%;
+    
+}
+
+#button{
+
+    width: 120px;
+    height: 25px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-top: 2%;
+    
+}
+
+#carg{
+
+    width: 120px;
+    height: 25px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+    
+}
+
+#limp{ 
+    
+    width: 120px;
+    height: 25px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-left: 2%;
+
+}
+
+#carg:hover{
+    background-color: #cbcaca;
+}
+
+#limp:hover{
+    background-color: #cbcaca;
+}
+
+#datos{
+    background-color: aquamarine;
+    padding: 10px;
+    color: black;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    width: 20%;
+    font-size: 20px;
+    margin-top: 5%;
+    text-align: center;
+}
