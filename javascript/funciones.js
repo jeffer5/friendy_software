@@ -40,5 +40,41 @@ function cerrar(){
     alert ("gracias, vuelvas prontos");
 
 
+}
+
+
+
+function camposu(value){
+
+    if( value== "registrar_orden"){
+        document.getElementById("registrar_orden").style.display = "block";
+        document.getElementById("listar_orden").style.display = "none";
+        document.getElementById("actualizar_orden").style.display = "none";
+        document.getElementById("eliminar_orden").style.display = "none";
+    }
+
+
+    else if( value== "listar_orden"){
+        document.getElementById("registrar_orden").style.display = "none";
+        document.getElementById("listar_orden").style.display = "block";
+        document.getElementById("actualizar_orden").style.display = "none";
+        document.getElementById("eliminar_orden").style.display = "none";
+    }
+
+    else if( value== "actualizar_orden"){
+        document.getElementById("registrar_orden").style.display = "none";
+        document.getElementById("listar_orden").style.display = "none";
+        document.getElementById("actualizar_orden").style.display = "block";
+        document.getElementById("eliminar_orden").style.display = "none";
+
+    }
+
+    else if( value== "eliminar_orden"){
+        document.getElementById("registrar_orden").style.display = "none";
+        document.getElementById("listar_orden").style.display = "none";
+        document.getElementById("actualizar_orden").style.display = "none";
+        document.getElementById("eliminar_orden").style.display = "block";
+
+    }
 
 }
