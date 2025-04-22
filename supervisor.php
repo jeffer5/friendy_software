@@ -183,6 +183,20 @@
             </div>
 
 
+
+            <br><div class='mensaje-1'><h2>Asignar operario</h2></div>
+
+            <div>
+
+                <div id="descripcion-1" >
+                    <p>Asignar un operario a una orden de acondicionamiento</p>
+                </div>
+                <button id="asignar"><a href="asignar.php">Asignar operario</a></button>  
+            </div>
+
+
+
+            
             <script src="javascript/funciones.js"></script>
 
             <br><br><button id="salir"><a href="cerrar_sesion.php">cerrar sesion</a></button>
