@@ -38,6 +38,8 @@
 
         ?>
 
+        <div class='mensaje'><h2>Funciones de usuarios</h2></div>
+
             <select name="crud" id="select-crud" onchange="campos(this.value)">
                 <option value="">Escoja</option>
                 <option value="Consultar">Consultar</option>
@@ -107,6 +109,95 @@
                 </div>
                    
             </div>
+
+
+            <br><div class='mensaje'><h2>Funciones ordenes</h2></div>
+
+
+            <select name="crud" id="select-crud" onchange="camposu(this.value)">
+                <option value="">Escoja</option>
+                <option value="registrar_orden">Registrar orden</option>
+                <option value="listar_orden">Listar ordenes</option>
+                <option value="actualizar_orden">Actualizar orden</option>
+                <option value="eliminar_orden">Eliminar orden</option>
+            </select>
+
+
+            <div id="registrar_orden" style="display:none;">
+
+                <div id="descripcion" >
+                    <p>Registre los datos necesarios en la orden de acondicionamiento</p>
+                </div>
+
+                <div id="form-con">
+                    <button id="button-listar"><a href="registrar_orden.php">Registrar</a></button> 
+                </div>
+
+            </div>
+
+
+            <div id="listar_orden" style="display:none;">
+
+                <div id="descripcion">
+                    <p>Lista completa de las ordenes de acondicionamiento</p>
+                </div>
+                    
+                <div>
+                    <button id="button-listar"><a href="listar_orden.php">Listar</a></button>  
+                </div>
+                
+            </div>
+
+
+            <div id="actualizar_orden" style="display:none;">
+
+                <div id="descripcion" >
+                    <p>Actualiza registros segun el numero de la orden de acondicionamiento</p>
+                </div>
+                    
+                <div id="form-con">
+                    <form action="actualizar_orden.php" method="post">
+                        ingrese el numero a actualizar <br><br>
+                        <input type="number" name="cod1" required>
+                        <input type="submit" value="Actualizar" name="consu" id="consu">
+                    </form>
+                </div>
+
+            </div>
+                 
+            
+            <div id="eliminar_orden" style="display:none;">
+
+                <div id="descripcion" >
+                    <p>Elimina registros segun el numero de acondicioamiento</p>
+                </div>
+                    
+                <div id="form-con">
+                    <form action="eliminar_orden.php" method="post">
+                        ingrese el numero de orden a eliminar <br><br>
+                        <input type="number" name="cod2" required>
+                        <input type="submit" value="Eliminar" name="consu" id="consu">
+                    </form>
+                </div>
+                   
+            </div>
+
+            
+            <br><div class='mensaje-1'><h2>Asignar operario</h2></div>
+
+            <div>
+
+                <div id="descripcion-1" >
+                    <p>Asignar un operario a una orden de acondicionamiento</p>
+                </div>
+                <button id="asignar"><a href="asignar.php">Asignar operario</a></button>  
+            </div>
+
+
+
+
+
+
 
 
 

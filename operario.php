@@ -40,7 +40,7 @@
 
     ?>
 
+        <br><br><button id="salir"><a href="cerrar_sesion.php">cerrar sesion</a></button>
 
-        <br><br><button id="salir"><a href="cerrar_sesion.html">cerrar sesion</a></button>
 </body>
 </html>

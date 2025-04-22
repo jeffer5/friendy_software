@@ -14,7 +14,7 @@
             //echo 'mysql conectado<br><br>'; 
 
             //seleccionar la base de datos trabajada
-            mysqli_select_db ($conex, 'friendly') or die ('base de datos no encontrada');
+            mysqli_select_db ($conex, 'bdfriendly') or die ('base de datos no encontrada');
             //echo 'la base de datos -bdsena- ha sido conectada<br><br>';
 
             /*desconectar mysql de php

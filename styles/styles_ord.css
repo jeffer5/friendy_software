@@ -1,0 +1,126 @@
+.reg{
+    display: flex;
+    margin-left: 38%;
+    margin-top: 5%;
+    width: 550px;
+    height: 550px;
+    border: aquamarine 2px solid;
+    border-radius: 20px;
+    justify-content: center;
+    box-shadow: 0 0 10px #ccc;
+}
+
+
+#formu{
+
+    margin: 5%;
+    margin-left: 5%;
+    margin-top: 8%;
+    width: 400px;
+    height: 500px;
+    font-size: 18px;
+    
+}
+
+
+#num_ord{
+    margin-top: 3%;
+    margin-left: 25%;
+    border: none;
+    border-bottom: aquamarine  2px solid;
+
+}
+
+#nom_cli{
+
+    margin-left: 23%;
+    border: none;
+    border-bottom: aquamarine  2px solid;
+}
+
+#fec_ent{
+ 
+    margin-left: 24%;
+    
+}
+
+#nom_pro{
+
+    margin-left: 12%;
+    border: none;
+    border-bottom: aquamarine  2px solid;
+}
+
+
+#can_tot{
+
+    margin-left: 26%;
+    border: none;
+    border-bottom: aquamarine  2px solid;
+}
+
+
+
+#x{
+    width: 20px;
+    height: 20px;
+    margin-left: 90%;
+    margin-top: 3%;
+}
+
+
+
+#button{
+
+    width: 120px;
+    height: 25px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-top: 2%;
+    margin-left: 35%;
+    
+}
+
+#carg{
+
+    margin-left: 20%;
+    width: 120px;
+    height: 25px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+    
+}
+
+#limp{ 
+    
+    width: 120px;
+    height: 25px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-left: 2%;
+
+}
+
+#carg:hover{
+    background-color: #cbcaca;
+}
+
+#limp:hover{
+    background-color: #cbcaca;
+}
+
+#datos{
+    background-color: aquamarine;
+    padding: 10px;
+    color: black;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    width: 20%;
+    font-size: 20px;
+    margin-top: 5%;
+    text-align: center;
+}
