@@ -40,18 +40,29 @@
 
     ?>
 
-
+        <div class="funciones">
         <div class='mensaje'><h2>ordenes asignadas</h2></div>
 
             <div id="descripcion" >
-                <p>revise ordenes asignadas por el supervisor</p>
+                <p>revise ordenes asignadas por su supervisor</p>
                 <form action="ord_asig.php" method=post>
                     <input type="hidden" name="cod" <?php echo "value='$id'  " ?>  >
-                    <input type="submit" value="revisar">
+                    <input id="revisar" type="submit" value="revisar">
                 </form>
             </div>
+        </div>
 
+        <div class="funciones-1">
+            <div class='mensaje-1'><h2>Registrar eficiencia</h2></div>
 
+            <div id="descripcion-1" >
+                <p>revise ordenes asignadas por su supervisor</p>
+                <form action="ord_asig.php" method=post>
+                    <input type="hidden" name="cod" <?php echo "value='$id'  " ?>  >
+                    <input id="revisar" type="submit" value="revisar">
+                </form>
+            </div>
+        </div>
 
 
 

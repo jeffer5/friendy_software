@@ -19,9 +19,22 @@
     border: 1px solid aquamarine;
     border-radius: 5px;
     font-family: Arial, sans-serif;
-    width: 30%;
+    width: 80%;
     font-size: 20px;
-    margin-top: 7%;
+    margin-left: 6%;
+    text-align: center;
+    
+  }
+
+  .mensaje-1 {
+    background-color: aquamarine;
+    padding: 10px;
+    color: black;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    width: 80%;
+    font-size: 20px;
     margin-left: 6%;
     text-align: center;
   }
@@ -34,4 +47,41 @@
     font-size: 18px;
     margin-top: 4%;
     margin-left: 45%;
+  }
+
+
+  .funciones{
+    float: left;
+    width: 500px;
+    height: auto;
+
+    height: auto;
+    margin-left: 10%;
+    margin-top: 4%;
+  }
+
+  .funciones-1{
+    margin-left: 62%;
+
+    width: 500px;
+    height: auto;
+    margin-top: 4%;
+  }
+
+  #descripcion{
+    margin-left: 18%;
+  }
+
+  #descripcion-1{
+    margin-left: 18%;
+  }
+
+  #revisar{
+    width: 180px;
+    height: 30px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-top: 2%;
+    margin-left: 18%;
   }

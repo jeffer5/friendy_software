@@ -13,3 +13,13 @@
     margin-top: 4%;
     
 }
+
+#asignar{
+    width: 180px;
+    height: 30px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-top: 2%;
+    
+}

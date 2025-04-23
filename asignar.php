@@ -82,7 +82,7 @@
         echo "<option value='" . $row['id_ord'] . "'>" . $row['nro_ord'] . "</option>";
     }
     echo "</select><br><br>";
-    echo '<input type=submit value=Asignar></form><br>';
+    echo '<input id="asignar" type=submit value=Asignar></form><br>';
 
     mysqli_close($conex);
 
