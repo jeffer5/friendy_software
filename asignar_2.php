@@ -17,7 +17,7 @@
 
         //insertar registro de la tabla
         mysqli_query ($conex, "insert into detalle_orden(id_usu_fk, id_ord_fk) values
-        ('$_REQUEST[orden]','$_REQUEST[usuario]')")
+        ('$_REQUEST[usuario]','$_REQUEST[orden]')")
         or die ("error".mysqli_error($conex));
 
         echo '<center><h2 id="datos">Datos agregados correctamente</h2>';

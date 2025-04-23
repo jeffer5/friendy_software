@@ -12,6 +12,19 @@
     text-align: center;
   }
 
+  .mensaje {
+    background-color: aquamarine;
+    padding: 10px;
+    color: black;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    width: 30%;
+    font-size: 20px;
+    margin-top: 7%;
+    margin-left: 6%;
+    text-align: center;
+  }
 
   #salir{
     width: 180px;

@@ -59,27 +59,27 @@
 
     <?php
 
+    $registro = mysqli_query($conex,'select id_usu, nom_usu from usuario where rol_usu="operario"') or die ("error".mysqli_error($conex));
+
+    echo '<form action=asignar_2.php  method=post>';
+    echo "Seleccione operario<select name='usuario'>";
+    echo "<option value='#'>seleccione</option> ";
+    while ($row = mysqli_fetch_assoc($registro)) {
+        echo "<option value='" . $row['id_usu'] . "'>" . $row['nom_usu'] . "</option>";
+    }
+    echo "</select><br><br>";
+    
+
+
+
     $registro = mysqli_query($conex,'select id_ord, nro_ord from orden') or die ("error".mysqli_error($conex));
 
 
     echo '<form action=asignar_2.php  method=post>';
     echo "Seleccione orden<select name='orden'>";
+    echo "<option value='#'>seleccione</option> ";
     while ($row = mysqli_fetch_assoc($registro)) {
         echo "<option value='" . $row['id_ord'] . "'>" . $row['nro_ord'] . "</option>";
-    }
-    echo "</select><br><br>";
-
-
-   
-
-
-    $registro = mysqli_query($conex,'select id_usu, nom_usu from usuario') or die ("error".mysqli_error($conex));
-
-
-
-    echo "Seleccione operario<select name='usuario'>";
-    while ($row = mysqli_fetch_assoc($registro)) {
-        echo "<option value='" . $row['id_usu'] . "'>" . $row['nom_usu'] . "</option>";
     }
     echo "</select><br><br>";
     echo '<input type=submit value=Asignar></form><br>';

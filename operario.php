@@ -40,6 +40,21 @@
 
     ?>
 
+
+        <div class='mensaje'><h2>ordenes asignadas</h2></div>
+
+            <div id="descripcion" >
+                <p>revise ordenes asignadas por el supervisor</p>
+                <form action="ord_asig.php" method=post>
+                    <input type="hidden" name="cod" <?php echo "value='$id'  " ?>  >
+                    <input type="submit" value="revisar">
+                </form>
+            </div>
+
+
+
+
+
         <br><br><button id="salir"><a href="cerrar_sesion.php">cerrar sesion</a></button>
 
 </body>
