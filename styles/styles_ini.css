@@ -2,7 +2,7 @@
 
 #inicio_sesion{
 
-    margin-top: 2%;
+    margin-top: 6%;
     border:aquamarine 1px solid;
     width: 30%;
     height: 240px;
@@ -11,6 +11,7 @@
     border-radius: 20px;
     box-shadow: 0 0 10px #ccc;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2%;
 }
 
 #usu{
@@ -59,4 +60,18 @@
     height: 20px;
     margin-left: 80%;
     margin-top: 2%;
+}
+
+
+#volver{
+
+    width: 180px;
+    height: 30px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 46%;
+    
 }

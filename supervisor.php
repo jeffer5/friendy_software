@@ -9,7 +9,7 @@
 <body>
         <?php
 
-            require_once 'princi.html';
+            require_once 'content_princi/header_2.html';
             require_once 'conexion.php';
 
             session_start();
@@ -200,6 +200,9 @@
             <script src="javascript/funciones.js"></script>
 
             <br><br><button id="salir"><a href="cerrar_sesion.php">cerrar sesion</a></button>
-            
+
+    <?php
+    require_once 'content_princi/footer.html';
+    ?>
 </body>
 </html>

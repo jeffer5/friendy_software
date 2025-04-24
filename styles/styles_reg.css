@@ -8,6 +8,8 @@
     border-radius: 20px;
     justify-content: center;
     box-shadow: 0 0 10px #ccc;
+    margin-bottom: 5%;
+
 }
 
 
@@ -96,6 +98,20 @@
     
 }
 
+#volver-1{
+
+    width: 180px;
+    height: 30px;
+    border:aquamarine 1px solid;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    
+}
+
+
+
 #button{
 
     width: 120px;
@@ -104,6 +120,8 @@
     border-radius: 2px;
     font-size: 18px;
     margin-top: 2%;
+    margin-bottom: 5%;
+   
     
 }
 

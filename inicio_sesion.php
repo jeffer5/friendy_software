@@ -9,14 +9,14 @@
 <body>
 
    <?php
-        require_once 'princi.html';
+        require_once 'content_princi/header.html';
 
    ?>
     
     <form action="inicio_sesion_1.php" method="post" >
         <div id="inicio_sesion">
 
-            <a href="princi.html"><img id="x" src="img/equis.jpg" alt=""></a><br><br>
+            <a href="princi.php"><img id="x" src="img/equis.jpg" alt=""></a><br><br>
 
             usuario <input type="text" name="usu" id="usu" required><br><br>
 
@@ -30,7 +30,13 @@
         </div>
     </form>
     
-   
+        <button id="volver"><a href="princi.php">volver</a></button>
+
+
+    <?php
+        require_once 'content_princi/footer.html';
+
+    ?>
 
         
 

@@ -9,7 +9,8 @@
 <body>
 
    <?php
-        require_once 'princi.html';
+   
+        require_once 'content_princi/header_2.html';  
         require_once 'conexion.php';
 
         $registro = mysqli_query($conex,"select*from usuario where ndo_usu = '$_REQUEST[cod]' ") or die ("error".mysqli_error($conex));
@@ -38,6 +39,11 @@
     ?>
 
         <button id="volver"><a href="supervisor.php">volver</a></button>
+
+
+    <?php
+    require_once 'content_princi/footer.html';
+    ?>
 
 
 </body>

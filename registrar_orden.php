@@ -9,10 +9,7 @@
 <body>
     
     <?php   
-
-    
-      require_once 'princi.html';
-
+        require_once 'content_princi/header_2.html';   
     ?>
 
     <form action="registrar_orden_2.php"  method="post" enctype="multipart/form-data">
@@ -52,5 +49,12 @@
             </div>
         </div>
     </form>
+
+    <?php   
+        require_once 'content_princi/footer.html';  
+    ?>
+
+
+
 </body>
 </html>

@@ -10,7 +10,7 @@
     
     <?php
 
-    require_once 'princi.html';
+    require_once 'content_princi/header_2.html';  
 
     //conexion a la base de datos
     require_once 'conexion.php';
@@ -34,6 +34,9 @@
     <button id="volver1"><a href="actualizar.php">Actualizar otro registro</a></button><br><br>
     <button id="volver"><a href="supervisor.php">volver</a></button>
 
+    <?php
+        require_once 'content_princi/footer.html';
+    ?>
 
 </body>
 </html>

@@ -8,19 +8,20 @@
 </head>
 <body>
     
-    <?php   
-
     
-      require_once 'princi.html';
+    
+        <?php   
+        require_once 'content_princi/header_2.html';  
+        ?>
 
-    ?>
+   
 
     <form action="registro_2.php"  method="post" enctype="multipart/form-data">
         <div class="reg">
 
             <div id="formu">
                 
-            <a href="princi.html"><img id="x" src="img/equis.jpg" alt=""></a><br><br>
+            <a href="princi.php"><img id="x" src="img/equis.jpg" alt=""></a><br><br>
 
                 <label for="" >
                     Nombre<input type="text" name="nom" id="name" required>
@@ -78,5 +79,10 @@
             </div>
         </div>
     </form>
+
+
+    <?php   
+        require_once 'content_princi/footer.html';  
+    ?>
 </body>
 </html>

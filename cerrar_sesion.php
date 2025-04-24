@@ -67,7 +67,7 @@ session_destroy();
 
   <script>
     setTimeout(() => {
-      window.location.href = "princi.html"; // Cambia si usas otra página de entrada
+      window.location.href = "princi.php"; // Cambia si usas otra página de entrada
     }, 4000); // espera 4 segundos antes de redirigir
   </script>
 </body>

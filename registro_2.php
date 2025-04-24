@@ -14,7 +14,7 @@
 
         $hash = password_hash("$contrasena", PASSWORD_DEFAULT);   
 
-            require_once 'princi.html';
+            require_once 'content_princi/header_2.html';
             //conexion a la base de datos   
             require_once 'conexion.php';
 
@@ -34,6 +34,10 @@
     ?>
 
         <button id="volver"><a href="princi.html">volver</a></button>
+
+        <?php
+        require_once 'content_princi/footer.html';
+        ?>
 
 </body>
 </html>

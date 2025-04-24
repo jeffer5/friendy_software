@@ -10,7 +10,7 @@
     
     <?php
 
-            require_once 'princi.html';
+            require_once 'content_princi/header_2.html'; 
             //conexion a la base de datos   
             require_once 'conexion.php';
 
@@ -27,7 +27,12 @@
     ?>
 
         <button id="volver"><a href="listar_orden.php">Ver lista</a></button>
-        <button id="volver"><a href="supervisor.php">volver</a></button>
+        <button id="volver-1"><a href="supervisor.php">volver</a></button>
+
+    <?php   
+    require_once 'content_princi/footer.html';   
+    ?>
+
 
 </body>
 </html>

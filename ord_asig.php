@@ -12,7 +12,7 @@
 
     <?php
 
-        require_once 'princi.html';
+        require_once 'content_princi/header_2.html';  
         require_once 'conexion.php';
 
         $respuesta = mysqli_query($conex," SELECT d.id_det , u.nom_usu, o.nro_ord, c.nom_cli , e.fec_ent, p.nom_pro, t.can_tot
@@ -43,6 +43,11 @@
     ?>
 
         <button id="volver"><a href="operario.php">volver</a></button>
+
+
+    <?php
+    require_once 'content_princi/footer.html';  
+    ?>
 
 
 </body>
