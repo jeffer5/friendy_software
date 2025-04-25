@@ -183,20 +183,93 @@
             </div>
 
 
+            <div class="operario">
+                <br><div class='mensaje-1'><h2>Asignar operario</h2></div>
 
-            <br><div class='mensaje-1'><h2>Asignar operario</h2></div>
+                <div>
 
-            <div>
-
-                <div id="descripcion-1" >
-                    <p>Asignar un operario a una orden de acondicionamiento</p>
+                    <div id="descripcion-1" >
+                        <p>Asignar un operario a una orden de acondicionamiento</p>
+                    </div>
+                    <button id="asignar"><a href="asignar.php">Asignar operario</a></button>  
                 </div>
-                <button id="asignar"><a href="asignar.php">Asignar operario</a></button>  
             </div>
 
 
+            <div>
+                <br><div class='mensaje'><h2>Establecer estandares</h2></div>
 
+
+                <select name="crud" id="select-crud" onchange="campose(this.value)">
+                    <option value="">Escoja</option>
+                    <option value="registrar_estandar">Registrar estandar</option>
+                    <option value="listar_estandar">Listar estandar</option>
+                    <option value="actualizar_estandar">Actualizar estandar</option>
+                    <option value="eliminar_estandar">Eliminar estandar</option>
+                </select>
+
+
+                <div id="registrar_estandar" style="display:none;">
+
+                    <div id="descripcion" >
+                        <p>Registre los estandares necesarios para el control de eficiencias</p>
+                    </div>
+
+                    <div id="form-con">
+                        <button id="button-listar"><a href="registrar_estandar.php">Registrar</a></button> 
+                    </div>
+
+                </div>
+
+
+                <div id="listar_estandar" style="display:none;">
+
+                    <div id="descripcion">
+                        <p>Lista completa de los estandares registrados</p>
+                    </div>
+                        
+                    <div>
+                        <button id="button-listar"><a href="listar_estandar.php">Listar</a></button>  
+                    </div>
+                    
+                </div>
+
+
+                <div id="actualizar_estandar" style="display:none;">
+
+                    <div id="descripcion" >
+                        <p>Actualiza registros segun el id del estandar</p>
+                    </div>
+                        
+                    <div id="form-con">
+                        <form action="actualizar_estandar.php" method="post">
+                            ingrese el id a actualizar <br><br>
+                            <input type="number" name="cod1" required>
+                            <input type="submit" value="Actualizar" name="consu" id="consu">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="eliminar_estandar" style="display:none;">
+
+                <div id="descripcion" >
+                    <p>Elimina estandares segun el id</p>
+                </div>
+                    
+                <div id="form-con">
+                    <form action="eliminar_estandar.php" method="post">
+                        ingrese el id eliminar <br><br>
+                        <input type="number" name="cod2" required>
+                        <input type="submit" value="Eliminar" name="consu" id="consu">
+                    </form>
+                </div>
+                   
+            </div>
             
+
+
             <script src="javascript/funciones.js"></script>
 
             <br><br><button id="salir"><a href="cerrar_sesion.php">cerrar sesion</a></button>

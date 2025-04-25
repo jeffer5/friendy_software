@@ -3,7 +3,7 @@
     margin-left: 38%;
     margin-top: 5%;
     width: 550px;
-    height: 600px;
+    height: 500px;
     border: aquamarine 2px solid;
     border-radius: 20px;
     justify-content: center;
@@ -17,7 +17,7 @@
     margin-left: 5%;
     margin-top: 8%;
     width: 400px;
-    height: 550px;
+    height: 400px;
     font-size: 18px;
     
 }
@@ -31,39 +31,37 @@
 
 }
 
-#nom_cli{
-
-    margin-left: 23%;
-    border: none;
-    border-bottom: aquamarine  2px solid;
-}
-
-#fec_ent{
- 
-    margin-left: 24%;
-    
-}
-
-#nom_pro{
-
-    margin-left: 12%;
-    border: none;
-    border-bottom: aquamarine  2px solid;
-}
-
-
-#can_tot{
+#pro_pro{
 
     margin-left: 26%;
     border: none;
     border-bottom: aquamarine  2px solid;
 }
 
-#pro_ord{
-    margin-left: 19%;
+
+#act_pro{
+
+    margin-left: 29%;
     border: none;
     border-bottom: aquamarine  2px solid;
 }
+
+
+#can_pro{
+
+    margin-left: 8%;
+    border: none;
+    border-bottom: aquamarine  2px solid;
+}
+
+#tie_pro{
+
+    margin-left: 5%;
+    border: none;
+    border-bottom: aquamarine  2px solid;
+}
+
+
 
 #x{
     width: 20px;

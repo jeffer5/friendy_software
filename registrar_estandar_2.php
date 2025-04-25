@@ -16,9 +16,8 @@
 
 
             //insertar registro de la tabla
-            mysqli_query ($conex, "insert into orden(nro_ord,nom_cli,fec_ent,nom_pro,can_tot,pro_ord) values
-            ('$_REQUEST[numord]','$_REQUEST[nomcli]','$_REQUEST[fecent]','$_REQUEST[nompro]','$_REQUEST[cantot]','$_REQUEST[proord]')")
-            or die ("error".mysqli_error($conex));
+            mysqli_query ($conex, "insert into promedio(pro_pro,act_pro,can_pro,tie_pro) values
+            ('$_REQUEST[pro]','$_REQUEST[proceso]','$_REQUEST[cantidad]','$_REQUEST[tiempo]')") or die ("error".mysqli_error($conex));
 
             echo '<center><h2 id="datos">Datos agregados correctamente</h2>';
             
@@ -26,7 +25,7 @@
             
     ?>
 
-        <button id="volver"><a href="listar_orden.php">Ver lista</a></button>
+        <button id="volver"><a href="listar_estandar.php">Ver lista</a></button>
         <button id="volver-1"><a href="supervisor.php">volver</a></button>
 
     <?php   

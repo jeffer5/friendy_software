@@ -22,8 +22,8 @@
     $registro = mysqli_query($conex,"update orden set fec_ent = '$_REQUEST[fecha_entrega]' where id_ord='$_REQUEST[id_ord]' ") or die ("error".mysqli_error($conex));
     $registro = mysqli_query($conex,"update orden set nom_pro = '$_REQUEST[nombre_producto]' where id_ord='$_REQUEST[id_ord]' ") or die ("error".mysqli_error($conex));
     $registro = mysqli_query($conex,"update orden set can_tot = '$_REQUEST[cantidad_tot]' where id_ord='$_REQUEST[id_ord]' ") or die ("error".mysqli_error($conex));
-    
-    
+    $registro = mysqli_query($conex,"update orden set can_tot = '$_REQUEST[cantidad_tot]' where id_ord='$_REQUEST[id_ord]' ") or die ("error".mysqli_error($conex));
+    $registro = mysqli_query($conex,"update orden set pro_ord = '$_REQUEST[proceso_ord]' where id_ord='$_REQUEST[id_ord]' ") or die ("error".mysqli_error($conex));
 
     echo '<center><p id=datos>datos actualizados</p><br>';
 

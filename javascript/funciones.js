@@ -78,3 +78,38 @@ function camposu(value){
     }
 
 }
+
+function campose(value){
+
+    if( value== "registrar_estandar"){
+        document.getElementById("registrar_estandar").style.display = "block";
+        document.getElementById("listar_estandar").style.display = "none";
+        document.getElementById("actualizar_estandar").style.display = "none";
+        document.getElementById("eliminar_estandar").style.display = "none";
+    }
+
+
+    else if( value== "listar_estandar"){
+        document.getElementById("registrar_estandar").style.display = "none";
+        document.getElementById("listar_estandar").style.display = "block";
+        document.getElementById("actualizar_estandar").style.display = "none";
+        document.getElementById("eliminar_estandar").style.display = "none";
+    }
+
+    else if( value== "actualizar_estandar"){
+        document.getElementById("registrar_estandar").style.display = "none";
+        document.getElementById("listar_estandar").style.display = "none";
+        document.getElementById("actualizar_estandar").style.display = "block";
+        document.getElementById("eliminar_estandar").style.display = "none";
+
+    }
+
+    else if( value== "eliminar_estandar"){
+        document.getElementById("registrar_estandar").style.display = "none";
+        document.getElementById("listar_estandar").style.display = "none";
+        document.getElementById("actualizar_estandar").style.display = "none";
+        document.getElementById("eliminar_estandar").style.display = "block";
+
+    }
+
+}

@@ -16,35 +16,31 @@
 <center><table id="table" border=1 width=80%>
 
 <tr height=30>
-    <th colspan="7" bgcolor=aquamarine>Lista de ordenes acondicionamiento</th>
+    <th colspan="5" bgcolor=aquamarine>Lista estandares</th>
 </tr>
 <tr height=30>
 <th>ID</th>
-<th>NUMERO ORDEN</th>
-<th>NOMBRE CLIENTE</th>
-<th>FECHA ENTREGA</th>
-<th>NOMBRE PRODUCTO</th>
-<th>CANTIDAD TOTAL</th>
-<th>PROCESO A REALIZAR</th>
+<th>PRODUCTO</th>
+<th>PROCESO</th>
+<th>CANTIDAD ESTANDAR</th>
+<th>ESTANDAR EN MINUTOS</th>
 </tr>
 
     <?php
 
         require_once 'conexion.php';
 
-        $registro = mysqli_query($conex,'select*from orden') or die ("error".mysqli_error($conex));
+        $registro = mysqli_query($conex,'select*from promedio') or die ("error".mysqli_error($conex));
 
 
         while($reg = mysqli_fetch_array($registro)){
 
             echo '<tr>';
-            echo '<th>'.$reg['id_ord'].'</th>';
-            echo '<th>'.$reg['nro_ord'].'</th>'; 
-            echo '<th>'.$reg['nom_cli'].'</th>';
-            echo '<th>'.$reg['fec_ent'].'</th>';
-            echo '<th>'.$reg['nom_pro'].'</th>';
-            echo '<th>'.$reg['can_tot'].'</th>';
-            echo '<th>'.$reg['pro_ord'].'</th>';
+            echo '<th>'.$reg['id_pro'].'</th>';
+            echo '<th>'.$reg['pro_pro'].'</th>'; 
+            echo '<th>'.$reg['act_pro'].'</th>';
+            echo '<th>'.$reg['can_pro'].'</th>';
+            echo '<th>'.$reg['tie_pro'].'</th>';
             echo '</tr>';
 
 

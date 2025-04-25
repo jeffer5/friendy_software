@@ -33,7 +33,7 @@
             
     ?>
 
-        <button id="volver"><a href="princi.html">volver</a></button>
+        <button id="volver"><a href="princi.php">volver</a></button>
 
         <?php
         require_once 'content_princi/footer.html';

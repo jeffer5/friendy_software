@@ -56,10 +56,10 @@
             <div class='mensaje-1'><h2>Registrar eficiencia</h2></div>
 
             <div id="descripcion-1" >
-                <p>revise ordenes asignadas por su supervisor</p>
-                <form action="ord_asig.php" method=post>
+                <p>registre la informacion necesaria para la medicion</p>
+                <form action="registrar_efi.php" method=post>
                     <input type="hidden" name="cod" <?php echo "value='$id'  " ?>  >
-                    <input id="revisar" type="submit" value="revisar">
+                    <input id="revisar" type="submit" value="Registrar">
                 </form>
             </div>
         </div>
