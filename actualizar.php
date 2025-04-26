@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <?php
+    <?php // apertura php
        require_once 'content_princi/header_2.html';  
 
     ?>
