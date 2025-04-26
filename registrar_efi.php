@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles_esta.css">
+    <link rel="stylesheet" href="styles/styles_efi.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,6 +12,7 @@
         require_once 'content_princi/header_2.html';   
     ?>
 
+    
     <form action="registrar_efi_2.php"  method="post" enctype="multipart/form-data">
         <div class="reg">
 
@@ -40,32 +41,66 @@
              
              
              
-             echo "Detalle orden<select name='orden'>";
-             echo "<option value='#'>seleccione</option> ";
-             while ($reg = mysqli_fetch_array($respuesta)) {
-                echo "<option value='" . $reg['id_det'] . "'>" . $reg['id_det'] . "</option>";
-                
-                
+             $datos = [];
+
+             echo "Detalle orden<select name='orden' id='orden' onchange='llenarInputs()'>";
+             echo "<option value=''>seleccione</option>";
              
+             while ($reg = mysqli_fetch_array($respuesta)) {
+                 $datos[$reg['id_det']] = $reg;
+                 echo "<option value='" . $reg['id_det'] . "'>" . $reg['id_det'] . "</option>";
              }
-
              echo "</select><br><br>";
-
-           
-                echo "Numero orden<input type=text value=".$reg['nro_ord']." disabled><br>";
-                echo "Fecha entrega<input type=text value=".$reg['fec_ent']." disabled><br>";
-                echo "Producto<input type=text value=".$reg['nom_pro']." disabled><br>";
-                echo "Cantidad<input type=text value=".$reg['can_tot']." disabled><br>"; 
-                echo "Proceso<input type=text value=".$reg['pro_ord']." disabled><br>";   
             
                 ?>
 
+                <div class="orden"> 
+                Numero orden: <input type="text" id="nro_ord" disabled><br>
+                Fecha entrega: <input type="text" id="fec_ent" disabled><br>
+                Producto: <input type="text" id="nom_pro" disabled><br>
+                Cantidad: <input type="text" id="can_tot" disabled><br>
+                Proceso: <input type="text" id="pro_ord" disabled><br>
+                </div>
+
+                <script>
+                    // esta constante datos permite guardar mis datos y enviarlos como un objeto a javascript
+                    const datos = <?php echo json_encode($datos); ?>;
+                </script>
+
                 </label>
-                <br><br><br>
                 <label for="">
-                    Estandar en minutos<input type="number"  name="tiempo" id="tie_pro" required>
+            <?php
+                   
+
+                $registro = mysqli_query($conex,"select*from promedio")or die("error".mysqli_error($conex));
+             
+             
+             
+             $dat = [];
+
+             echo "<br>Estandar<select name='estandar' id='estandar' onchange='llenarInputsp()'>";
+             echo "<option value=''>seleccione</option>";
+             
+             while ($reg = mysqli_fetch_array($registro)) {
+                 $dat[$reg['id_pro']] = $reg;
+                 echo "<option value='" . $reg['id_pro'] . "'>" . $reg['id_pro'] . "</option>";
+             }
+             echo "</select><br><br>";
+            
+                ?>
+
+                <div class="orden"> 
+                Producto estandar: <input type="text" id="pro_pro" disabled><br>
+                Proceso estandar: <input type="text" id="act_pro" disabled><br>
+                </div>
+
+                <script>
+                    // esta constante datos permite guardar mis datos y enviarlos como un objeto a javascript
+                    const dat = <?php echo json_encode($dat); ?>;
+                </script>
+
                 </label>
-                <br><br><br>
+                <br><br>
                 <label for="" >
                     <input type="submit" value="cargar" id="carg"><input type="reset" value="limpiar" id="limp">
                 </label>
@@ -76,6 +111,8 @@
             </div>
         </div>
     </form>
+
+        <script src="javascript/funciones.js"></script>
 
     <?php   
         require_once 'content_princi/footer.html';  

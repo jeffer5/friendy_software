@@ -113,3 +113,40 @@ function campose(value){
     }
 
 }
+
+// funcion que permite llenar los campos una vez es seleccionado un id
+function llenarInputs(){
+
+    const id = document.getElementById('orden').value;
+
+    if (datos[id]) {
+        document.getElementById('nro_ord').value = datos[id]['nro_ord'];
+        document.getElementById('fec_ent').value = datos[id]['fec_ent'];
+        document.getElementById('nom_pro').value = datos[id]['nom_pro'];
+        document.getElementById('can_tot').value = datos[id]['can_tot'];
+        document.getElementById('pro_ord').value = datos[id]['pro_ord'];
+    } else {
+        // Vaciar si no hay selección válida
+        document.getElementById('nro_ord').value = '';
+        document.getElementById('fec_ent').value = '';
+        document.getElementById('nom_pro').value = '';
+        document.getElementById('can_tot').value = '';
+        document.getElementById('pro_ord').value = '';
+    }
+}
+
+
+function llenarInputsp(){
+
+    const id = document.getElementById('estandar').value;
+
+    if (dat[id]) {
+        document.getElementById('pro_pro').value = dat[id]['pro_pro'];
+        document.getElementById('act_pro').value = dat[id]['act_pro'];
+    } else {
+        // Vaciar si no hay selección válida
+        document.getElementById('pro_pro').value = '';
+        document.getElementById('act_pro').value = '';
+     
+    }
+}

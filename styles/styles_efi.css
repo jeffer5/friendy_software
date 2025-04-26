@@ -3,11 +3,12 @@
     margin-left: 38%;
     margin-top: 5%;
     width: 550px;
-    height: 500px;
+    height: 800px;
     border: aquamarine 2px solid;
     border-radius: 20px;
     justify-content: center;
     box-shadow: 0 0 10px #ccc;
+    margin-bottom: 5%;
 }
 
 
@@ -17,33 +18,32 @@
     margin-left: 5%;
     margin-top: 8%;
     width: 400px;
-    height: 400px;
+    height: 770px;
     font-size: 18px;
     
 }
 
 
-#num_ord{
+#can_rea{
     margin-top: 3%;
-    margin-left: 25%;
+    margin-left: 16%;
     border: none;
     border-bottom: aquamarine  2px solid;
 
 }
 
-#pro_pro{
+#tie_gas{
 
-    margin-left: 26%;
+    margin-left: 8%;
     border: none;
     border-bottom: aquamarine  2px solid;
 }
 
 
-#act_pro{
+#orden{
 
-    margin-left: 29%;
-    border: none;
-    border-bottom: aquamarine  2px solid;
+    margin-left: 30%;
+   
 }
 
 
@@ -130,4 +130,8 @@
 
 .orden input{
     margin-left: 50%;
+}
+
+#estandar{
+    margin-left: 42%;
 }
