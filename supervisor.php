@@ -182,18 +182,34 @@
                    
             </div>
 
+            
+            <section>
+            <div class="steps"> 
 
-            <div class="operario">
-                <br><div class='mensaje-1'><h2>Asignar operario</h2></div>
+                <div class="res">
+                    <br><div class='mensaje-2'><h2>Asignar operario</h2></div>
 
-                <div>
-
-                    <div id="descripcion-1" >
-                        <p>Asignar un operario a una orden de acondicionamiento</p>
+                    <div>
+                        <div id="descripcion-2" >
+                            <p>Asignar un operario a una orden de acondicionamiento</p>
+                        </div>
+                        <button id="asignar"><a href="asignar.php">Asignar operario</a></button>  
                     </div>
-                    <button id="asignar"><a href="asignar.php">Asignar operario</a></button>  
                 </div>
+
+                <div class="res">
+                    <br><div class='mensaje-2'><h2>Ver resultados</h2></div>
+
+                    <div>
+                        <div id="descripcion-2" >
+                            <p>Consultar datos obtenidos por el programa</p>
+                        </div>
+                        <button id="asignar"><a href="resultados.php">Consultar</a></button>  
+                    </div>
+                </div> 
             </div>
+
+            </section>
 
 
             <div>

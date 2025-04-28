@@ -45,6 +45,20 @@ body{
     text-align: center;
   }
 
+  .mensaje-2 {
+    background-color: aquamarine;
+    padding: 10px;
+    color: black;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    width: 70%;
+    font-size: 20px;
+    margin-top: 7%;
+    text-align: center;
+    margin-right: 2px;
+  }
+
 
   #select-crud{
 
@@ -233,6 +247,11 @@ body{
     margin-bottom: 10%;
   }
 
+  #descripcion-2{
+    margin-right: 24%;
+    margin-top: 6%;
+    margin-bottom: 10%;
+  }
 
   #button-listar{
 
@@ -292,8 +311,7 @@ body{
     border:aquamarine 1px solid;
     border-radius: 2px;
     font-size: 18px;
-    margin-top: 2%;
-    margin-right: 60%;
+    margin-right: 30%;
   }
 
   #descripcion-1{
@@ -302,4 +320,19 @@ body{
     margin-right: 60%;
   }
 
- 
+  .steps {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  
+  }
+
+  .res {
+    flex: 1 1 250px;
+    max-width: 1000px;
+    text-align: center;
+    margin-left: 6%;
+    
+  }

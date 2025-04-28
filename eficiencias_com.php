@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles_res.css">
     <title>Document</title>
 </head>
 <body>
@@ -10,6 +11,9 @@
 
  <?php
 
+
+    require_once 'content_princi/header_2.html';  
+   
     require_once 'conexion.php';
 
 
@@ -57,14 +61,13 @@
         
     }
 
-        echo "<pre>";
+        /*echo "<pre>";
         print_r($datos);
-        echo "</pre>";
+        echo "</pre>";*/
 
-        $i = 0;
 
-                echo "<table border=1 >";
-                echo "<tr><th colspan=7>Eficiencias totales</th></tr>";
+                echo "<center><table border=1 id=table>";
+                echo "<tr><th colspan=7 bgcolor=aquamarine>Eficiencias totales</th></tr>";
                 echo "<tr><th>ID Indicador</th><th>Numero Orden</th><th>Usuario</th><th>Producto</th><th>Cantidad realizada</th><th>Cantidad total</th><th>Eficiencia</th></tr>";
         foreach ($datos as $item) {
             if ($item['nom_pro'] == $item['pro_pro'] && $item['pro_ord'] == $item['act_pro']) {
@@ -91,7 +94,11 @@
             echo "</table>";
  ?>
 
+    <button id="volver"><a href="resultados.php">volver</a></button>
 
+    <?php   
+    require_once 'content_princi/footer.html';  
+    ?>
 
 
 
