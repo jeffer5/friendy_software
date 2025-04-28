@@ -33,31 +33,6 @@
 
         $datos[$reg['id_ind']] = $reg;
 
-
-        //variables tabla indicador
-        $reg['id_ind'];
-        $reg['can_rea'];
-        $reg['tie_gas'];
-        $reg['fec_ind'];
-
-        //variables tabla usuario
-        $reg['id_usu'];
-        $reg['nom_usu'];
-        $reg['ape_usu'];
-       
-        //variables tabla orden
-        $reg['id_ord'];
-        $reg['nro_ord'];
-        $reg['nom_pro'];
-        $reg['can_tot'];
-        $reg['pro_ord'];
-        
-        //variables tabla promedio
-        $reg['id_pro'];
-        $reg['act_pro'];
-        $reg['pro_pro'];
-        $reg['can_pro'];
-        $reg['tie_pro'];
         
     }
 

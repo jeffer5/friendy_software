@@ -190,26 +190,12 @@
             </div>
                    
         </div>
-
-        <!-- Sección para asignar un operario a una orden -->
-        <div class="operario">
-            <br><div class='mensaje-1'><h2>Asignar operario</h2></div>
             
             <section>
             <div class="steps"> 
 
                 <div class="res">
-                    <br><div class='mensaje-2'><h2>Asignar operario</h2></div>
-
-            <div>
-
-                <div id="descripcion-1" >
-                    <p>Asignar un operario a una orden de acondicionamiento</p>
-                </div>
-                <!-- Botón que redirige a la página para asignar un operario -->
-                <button id="asignar"><a href="asignar.php">Asignar operario</a></button>  
-            </div>
-        </div>
+                        <br><div class='mensaje-2'><h2>Asignar operario</h2></div>
                     <div>
                         <div id="descripcion-2" >
                             <p>Asignar un operario a una orden de acondicionamiento</p>
