@@ -304,5 +304,8 @@
         // Se incluye el archivo de pie de página
         require_once 'content_princi/footer.html';
     ?>
+
+    <script src="javascript/funciones.js"></script>
+
 </body>
 </html>
