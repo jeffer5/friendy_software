@@ -23,10 +23,10 @@
     $registro = mysqli_query($conex,"update orden set nom_pro = '$_REQUEST[nombre_producto]' where id_ord='$_REQUEST[id_ord]' ") or die ("error".mysqli_error($conex));
     $registro = mysqli_query($conex,"update orden set can_tot = '$_REQUEST[cantidad_tot]' where id_ord='$_REQUEST[id_ord]' ") or die ("error".mysqli_error($conex));
     
-    // Línea redundante, actualiza el campo 'can_tot' de nuevo con el mismo valor
+    //  actualiza el campo 'can_tot' de nuevo con el mismo valor
     $registro = mysqli_query($conex,"update orden set can_tot = '$_REQUEST[cantidad_tot]' where id_ord='$_REQUEST[id_ord]' ") or die ("error".mysqli_error($conex));
     
-    // Actualiza el campo 'pro_ord' (proceso a realizar) en la tabla 'orden'
+    // Actualiza el campo 'pro_ord' en la tabla 'orden'
     $registro = mysqli_query($conex,"update orden set pro_ord = '$_REQUEST[proceso_ord]' where id_ord='$_REQUEST[id_ord]' ") or die ("error".mysqli_error($conex));
 
     // Mensaje que confirma que los datos han sido actualizados correctamente
