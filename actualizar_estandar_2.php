@@ -10,28 +10,34 @@
     
     <?php
 
-    require_once 'content_princi/header_2.html';  
+    require_once 'content_princi/header_2.html';  // Se incluye el encabezado de la página
 
-    //conexion a la base de datos
+    // Conexión a la base de datos
     require_once 'conexion.php';
 
-
-    // actualizar registros tabla aprendiz
+    // Actualizar el campo 'pro_pro' (producto) de la tabla 'promedio' donde el id coincide
     $registro = mysqli_query($conex,"update promedio set pro_pro = '$_REQUEST[producto]' where id_pro='$_REQUEST[id_pro]' ") or die ("error".mysqli_error($conex));
+
+    // Actualizar el campo 'act_pro' (proceso) de la tabla 'promedio' donde el id coincide
     $registro = mysqli_query($conex,"update promedio set act_pro = '$_REQUEST[proceso]' where id_pro='$_REQUEST[id_pro]' ") or die ("error".mysqli_error($conex));
+
+    // Actualizar el campo 'can_pro' (estándar por minuto) de la tabla 'promedio' donde el id coincide
     $registro = mysqli_query($conex,"update promedio set can_pro = '$_REQUEST[estandar]' where id_pro='$_REQUEST[id_pro]' ") or die ("error".mysqli_error($conex));
 
+    // Mensaje de confirmación
     echo '<center><p id=datos>datos actualizados</p><br>';
 
+?>
 
-    ?>
+<!-- Botón para actualizar otro registro -->
+<button id="volver1"><a href="actualizar_estandar.php">Actualizar otro registro</a></button><br><br>
 
-    <button id="volver1"><a href="actualizar_estandar.php">Actualizar otro registro</a></button><br><br>
-    <button id="volver"><a href="supervisor.php">volver</a></button>
+<!-- Botón para volver a la página principal -->
+<button id="volver"><a href="supervisor.php">volver</a></button>
 
-    <?php
-        require_once 'content_princi/footer.html';
-   ?>
+<?php
+    require_once 'content_princi/footer.html';  // Se incluye el pie de página
+?>
 
 </body>
 </html>
