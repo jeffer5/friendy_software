@@ -10,7 +10,7 @@
     
     <!-- Inserta el encabezado desde un archivo HTML externo -->
     <?php   
-        require_once 'content_princi/header_2.html';  
+        require_once 'content_princi/header.html';  
     ?>
 
     <!-- Formulario de registro de usuario -->

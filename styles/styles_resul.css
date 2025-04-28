@@ -16,21 +16,43 @@ body{
 }
 
 
-.section{
+.section-1{
     background-color: #eef2f5;
+   
 }
   
   
-#tittle{
-    
-    margin-left: 50%;
-    width: 300px;
+.tittle{
+    margin-left: 36%;
+    background-color: aquamarine;
+    width: 500px;
     height: 80px;
     border: aquamarine 2px solid;
-    font-size: 10px;
+    font-size: 30px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 8px;
+
+}
+
+h3{
+    margin-top: 2%;
+   
+}
+
+.seleccion input{
+    width: 150px;
+    height: 35px;
+    border: aquamarine 2px solid;
+   
+}
+
+.selec input{
+    width: 150px;
+    height: 35px;
+    border: aquamarine 2px solid;
+    margin-top: 2%;
+    font-size: 18px;
 
 }

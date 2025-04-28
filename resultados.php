@@ -14,17 +14,17 @@
 
     ?>
 
-
-        <button id=button><a href="eficiencias_com.php">Eficiencias Totales</a></button>
-
-
         <section class="section">
+            <button id=button><a href="eficiencias_com.php">Eficiencias Totales</a></button>
+        </section>
+
+        <section class="section-1">
 
             <div class="princi">
 
             <form action="eficiencias_espe.php">
 
-                <div id="tittle"><p>Eficiencias por operario</p></div>
+                <div class="tittle"><p>Eficiencias por operario</p></div>
 
                     <h3>escoga la forma de busqueda de su preferencia</h3>
                 <div class="seleccion">
@@ -42,7 +42,9 @@
                     <input type="text" name="cod">
                     <input type="submit" value="enviar" name="id_usu">
                 </div>
-
+                <div class="selec">
+                <input type="reset" value=limpiar>
+                </div>
             </form>
             </div>
         </section>
