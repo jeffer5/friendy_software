@@ -16,8 +16,8 @@
 
 
             //insertar registro de la tabla
-            mysqli_query ($conex, "insert into indicador(can_rea,tie_gas,id_det_fk,id_pro_fk) values
-            ('$_REQUEST[cantidad]','$_REQUEST[tiempo]','$_REQUEST[orden]','$_REQUEST[estandar]')") or die ("error".mysqli_error($conex));
+            mysqli_query ($conex, "insert into indicador(can_rea,tie_gas,fec_ind,id_det_fk,id_pro_fk) values
+            ('$_REQUEST[cantidad]','$_REQUEST[tiempo]','$_REQUEST[fecha]','$_REQUEST[orden]','$_REQUEST[estandar]')") or die ("error".mysqli_error($conex));
 
             echo '<center><h2 id="datos">Datos agregados correctamente</h2>';
             

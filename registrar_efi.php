@@ -28,6 +28,11 @@
                    Tiempo gastado en min<input type="number" name="tiempo" id="tie_gas" required>
                 </label>
                 <br><br><br>
+                <label for="" >
+                   Fecha<input type="date" name="fecha" id="fec_ind" required>
+                </label>
+                <br><br><br>
+                
                 <label for="">
 
                 <?php

@@ -64,12 +64,12 @@
     $registro = mysqli_query($conex,'select id_usu, nom_usu from usuario where rol_usu="operario"') or die ("error".mysqli_error($conex));
 
     echo '<form action=asignar_2.php  method=post>';
-    echo "Seleccione operario<select name='usuario'>";
+    echo "Seleccione operario<select name='usuario' id=usuario >";
     echo "<option value='#'>seleccione</option> ";
     while ($row = mysqli_fetch_assoc($registro)) {
         echo "<option value='" . $row['id_usu'] . "'>" . $row['nom_usu'] . "</option>";
     }
-    echo "</select><br><br>";
+    echo "</select>";
     
 
 
