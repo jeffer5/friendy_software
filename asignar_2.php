@@ -31,10 +31,12 @@
     mysqli_close($conex);
 ?>
 
+<button id="volver"><a href="asignados.php">ver asignaciones</a></button>
+
 <!-- Botón para regresar a la página de asignar órdenes -->
 <button id="volver"><a href="asignar.php">volver</a></button>
 
-    
+
 
    <?php
     // Incluye el pie de página

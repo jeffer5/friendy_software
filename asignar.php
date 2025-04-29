@@ -97,7 +97,7 @@
     mysqli_close($conex);
 ?>
 
-
+<button id="volver"><a href="asignados.php">ver asignaciones</a></button>
 
    <!-- Botón para volver a la página de supervisor -->
 <button id="volver"><a href="supervisor.php">volver</a></button>

@@ -30,7 +30,7 @@
     ?>
 
     <!-- Botones para la navegación después de insertar los datos -->
-    <button id="volver"><a href="listar_indicador.php">Ver lista</a></button> <!-- Enlace para ver la lista de registros -->
+    <button id="volver"><a href="listar_eficiencia.php">Ver lista</a></button> <!-- Enlace para ver la lista de registros -->
     <button id="volver-1"><a href="operario.php">volver</a></button> <!-- Enlace para regresar a la página principal del operario -->
 
     <?php   
