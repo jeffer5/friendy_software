@@ -19,7 +19,7 @@
             <div id="formu">
 
                 <!-- Botón para cerrar el formulario o regresar a página principal -->
-                <a href="princi.php"><img id="x" src="img/equis.jpg" alt="Cerrar formulario"></a><br><br>
+                <a href="index.php"><img id="x" src="img/equis.jpg" alt="Cerrar formulario"></a><br><br>
 
                 <!-- Campo de nombre -->
                 <label for="name">Nombre
@@ -94,7 +94,7 @@
 
                 <!-- Botón para regresar -->
                 <label>
-                    <button id="button"><a href="princi.html">Volver</a></button>
+                    <button id="button"><a href="index.php">Volver</a></button>
                 </label>
 
             </div>

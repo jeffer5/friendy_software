@@ -22,7 +22,7 @@
         <div id="inicio_sesion">
 
             <!-- Botón (imagen) para volver a la página principal -->
-            <a href="princi.php"><img id="x" src="img/equis.jpg" alt=""></a><br><br>
+            <a href="index.php"><img id="x" src="img/equis.jpg" alt=""></a><br><br>
 
             <!-- Campo de entrada para el nombre de usuario -->
             usuario <input type="text" name="usu" id="usu" required><br><br>

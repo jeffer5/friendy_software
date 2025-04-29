@@ -98,7 +98,7 @@ session_destroy();  // Destruye la sesión completamente
   <!-- Script para redirigir al usuario después de 4 segundos -->
   <script>
     setTimeout(() => {
-      window.location.href = "princi.php"; // Redirige al usuario a la página de login o principal
+      window.location.href = "index.php"; // Redirige al usuario a la página de login o principal
     }, 4000); // Espera 4 segundos antes de redirigir
   </script>
 </body>

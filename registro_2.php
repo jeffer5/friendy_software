@@ -48,7 +48,7 @@
     ?>
 
     <!-- Botón que redirige a la página principal -->
-    <button id="volver"><a href="princi.php">volver</a></button>
+    <button id="volver"><a href="index.php">volver</a></button>
 
     <?php
         // Se incluye el pie de página desde un archivo externo
