@@ -1,5 +1,5 @@
-// inicio pagina principal 
-<!DOCTYPE html>
+
+<!DOCTYPE html><!--inicio pagina principal -->
 <html lang="en"> <!-- Define el idioma del contenido de la página (en español en este caso) -->
 <head>
     <meta charset="UTF-8"> <!-- Establece la codificación de caracteres como UTF-8 -->
