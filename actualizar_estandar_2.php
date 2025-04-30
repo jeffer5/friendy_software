@@ -22,7 +22,10 @@
     $registro = mysqli_query($conex,"update promedio set act_pro = '$_REQUEST[proceso]' where id_pro='$_REQUEST[id_pro]' ") or die ("error".mysqli_error($conex));
 
     // Actualizar el campo 'can_pro' (estándar por minuto) de la tabla 'promedio' donde el id coincide
-    $registro = mysqli_query($conex,"update promedio set can_pro = '$_REQUEST[estandar]' where id_pro='$_REQUEST[id_pro]' ") or die ("error".mysqli_error($conex));
+    $registro = mysqli_query($conex,"update promedio set can_pro = '$_REQUEST[cantidad]' where id_pro='$_REQUEST[id_pro]' ") or die ("error".mysqli_error($conex));
+
+    // Actualizar el campo 'can_pro' (estándar por minuto) de la tabla 'promedio' donde el id coincide
+    $registro = mysqli_query($conex,"update promedio set tie_pro = '$_REQUEST[tiempo]' where id_pro='$_REQUEST[id_pro]' ") or die ("error".mysqli_error($conex));
 
     // Mensaje de confirmación
     echo '<center><p id=datos>datos actualizados</p><br>';
