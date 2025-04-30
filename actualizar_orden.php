@@ -75,12 +75,12 @@
         echo '<center><table border=1 width=30% >';
         echo '<tr><th colspan=2 bgcolor=aquamarine>Actualización de datos</th></tr>';
         echo '<input type=hidden  name=id_ord value='.$id_ord.'></label><br><br>';
-        echo '<tr><th rowspan=2><label >Nombre<br><input type=text  name=numero_orden value='.$nro_ord.'><input type=hidden  name=numero_ordeni value='.$nro_ord.'></label><br><br>';
-        echo '<label>Apellido<br><input type=text name=nombre_cliente value='.$nom_cli.'><input type=hidden name=nombre_clientei value='.$nom_cli.'></label><br><br>';
-        echo '<label>Tio documento<br><input type=text name=fecha_entrega value='.$fec_ent.'><input type=hidden name=fecha_entregai value='.$fec_ent.'></label><br><br>';
-        echo '<label>Numero documento<br><input type=text name=nombre_producto value='.$nom_pro.'><input type=hidden name=nombre_productoi value='.$nom_pro.'></label><br><br>';
-        echo '<label>Telefono<br><input type=text name=cantidad_tot value='.$can_tot.'><input type=hidden name=cantidad_toti value='.$can_tot.'></label><br><br>';
-        echo '<label>Telefono<br><input type=text name=proceso_ord value='.$pro_ord.'><input type=hidden name=proceso_ordi value='.$pro_ord.'></label><br><br>';
+        echo '<tr><th rowspan=2><label>Numero de orden<br><input type=text  name=numero_orden value='.$nro_ord.'><input type=hidden  name=numero_ordeni value='.$nro_ord.'></label><br><br>';
+        echo '<label>Nombre del cliente<br><input type=text name=nombre_cliente value='.$nom_cli.'><input type=hidden name=nombre_clientei value='.$nom_cli.'></label><br><br>';
+        echo '<label>Fecha entrega<br><input type=text name=fecha_entrega value='.$fec_ent.'><input type=hidden name=fecha_entregai value='.$fec_ent.'></label><br><br>';
+        echo '<label>Nombre producto<br><input type=text name=nombre_producto value='.$nom_pro.'><input type=hidden name=nombre_productoi value='.$nom_pro.'></label><br><br>';
+        echo '<label>Cantidad Total<br><input type=text name=cantidad_tot value='.$can_tot.'><input type=hidden name=cantidad_toti value='.$can_tot.'></label><br><br>';
+        echo '<label>Proceso<br><input type=text name=proceso_ord value='.$pro_ord.'><input type=hidden name=proceso_ordi value='.$pro_ord.'></label><br><br>';
         echo '<center><input type=submit name=actualizarD value="Actualizar datos"></th>';
         echo '</table>';
         echo '</form>';

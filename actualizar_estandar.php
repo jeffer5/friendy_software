@@ -15,14 +15,14 @@
 <center><table id="table" border=1 width=80%>
 
 <tr height=30>
-    <th colspan="7" bgcolor=aquamarine>Lista estandares</th> <!-- Título de la tabla -->
+    <th colspan="5" bgcolor=aquamarine>Lista estandares</th> <!-- Título de la tabla -->
 </tr>
 <tr height=30>
     <!-- Encabezados de la tabla -->
     <th>ID</th>
     <th>PRODUCTO</th>
     <th>PROCESO</th>
-    <th>ESTANDAR POR MINUTO</th>
+    <th>CANTIDAD</th>
     <th>ESTANDAR POR MINUTO</th>
 </tr>
 
