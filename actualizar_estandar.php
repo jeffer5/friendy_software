@@ -23,6 +23,7 @@
     <th>PRODUCTO</th>
     <th>PROCESO</th>
     <th>ESTANDAR POR MINUTO</th>
+    <th>ESTANDAR POR MINUTO</th>
 </tr>
 
 <?php
@@ -38,6 +39,7 @@
         echo '<th>'.$reg['pro_pro'].'</th>'; 
         echo '<th>'.$reg['act_pro'].'</th>';
         echo '<th>'.$reg['can_pro'].'</th>';
+        echo '<th>'.$reg['tie_pro'].'</th>';
         echo "</tr>";
     }
 ?>
@@ -54,6 +56,7 @@
         $pro_pro = $reg['pro_pro']; 
         $act_pro = $reg['act_pro'];
         $can_pro = $reg['can_pro'];
+        $tie_pro = $reg['tie_pro'];
 
         // Se genera un formulario con los datos del registro para permitir su actualización
         echo '<form action=actualizar_estandar_2.php  method=post  >';
@@ -62,7 +65,8 @@
         echo '<input type=hidden  name=id_pro value='.$id_pro.'></label><br><br>';
         echo '<tr><th rowspan=2><label >Producto<br><input type=text  name=producto value='.$pro_pro.'><input type=hidden  name=productoi value='.$pro_pro.'></label><br><br>';
         echo '<label>Proceso<br><input type=text name=proceso value='.$act_pro.'><input type=hidden name=procesoi value='.$act_pro.'></label><br><br>';
-        echo '<label>Estandar por minuto<br><input type=text name=estandar value='.$can_pro.'><input type=hidden name=estandari value='.$can_pro.'></label><br><br>';
+        echo '<label>Cantidad estandar<br><input type=text name=cantidad value='.$can_pro.'><input type=hidden name=cantidadi value='.$can_pro.'></label><br><br>';
+        echo '<label>Tiempo estandar<br><input type=text name=tiempo value='.$tie_pro.'><input type=hidden name=tiempoi value='.$tie_pro.'></label><br><br>';
         echo '<center><input type=submit name=actualizarD value="Actualizar estandar"></th>';
         echo '</table>';
         echo '</form>';
