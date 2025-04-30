@@ -66,7 +66,7 @@
         echo '<tr><th rowspan=2><label >Producto<br><input type=text  name=producto value='.$pro_pro.'><input type=hidden  name=productoi value='.$pro_pro.'></label><br><br>';
         echo '<label>Proceso<br><input type=text name=proceso value='.$act_pro.'><input type=hidden name=procesoi value='.$act_pro.'></label><br><br>';
         echo '<label>Cantidad estandar<br><input type=text name=cantidad value='.$can_pro.'><input type=hidden name=cantidadi value='.$can_pro.'></label><br><br>';
-        echo '<label>Tiempo estandar<br><input type=text name=estandar value='.$tie_pro.'><input type=hidden name=estandari value='.$tie_pro.'></label><br><br>';
+        echo '<label>Tiempo estandar<br><input type=text name=tiempo value='.$tie_pro.'><input type=hidden name=tiempoi value='.$tie_pro.'></label><br><br>';
         echo '<center><input type=submit name=actualizarD value="Actualizar estandar"></th>';
         echo '</table>';
         echo '</form>';
