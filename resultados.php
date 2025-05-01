@@ -50,10 +50,18 @@
         </section>
 
 
-        <section class="otros">
+        <section class="fecha">
+            <form action="eficiencia_fecha.php">
+            <div class="tittle"><p>Eficiencias por fecha</p></div>
 
-
-
+            <h3>Por favor ingrese el rango de fechas</h3>
+            
+            <div class="seleccion">
+            <input type="date" name="fecha1">
+            <input type="date" name="fecha2">
+            <input type="submit" value="enviar" name="fec">
+            </div>
+            </form>
         </section>
 
 
