@@ -65,6 +65,22 @@
         </section>
 
 
+        <section class="rango">
+            <form action="eficiencia_rango.php">
+            <div class="tittle"><p>Eficiencias por rango</p></div>
+
+            <h3>Por favor ingrese el rango de eficiencias</h3>
+            
+            <div class="seleccion">
+            <input type="number" name="rango1">
+            <input type="number" name="rango2">
+            <input type="submit" value="enviar" name="fec">
+            </div>
+            </form>
+        </section>
+
+
+
 
         <button id="volver"><a href="supervisor.php">volver</a></button>
 

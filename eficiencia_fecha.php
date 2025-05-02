@@ -56,7 +56,8 @@
                 
                 echo "<tr><th>".$item['id_ind']."</th><th>".$item['nro_ord']."</th><th>".$item['nom_usu']."</th><th>".$item['nom_pro']."</th>";
                 echo "<th>".$item['can_rea']."</th><th>".$item['can_tot']."</th><th>".$item['fec_ind']."</th><th>".$tot_efi." % </th></tr>";
-                
+
+
         
             } else {
                 echo "El estándar no corresponde con la orden para ID Indicador: " . $item['id_ind'] . "<br><br>";
@@ -64,6 +65,10 @@
         }
 
             echo "</table>";
+
+
+
+
  ?>
 
     <button id="volver"><a href="resultados.php">volver</a></button>
