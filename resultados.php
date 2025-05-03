@@ -78,6 +78,34 @@
             </div>
             </form>
         </section>
+        
+
+        <section class="proceso">
+            <form action="eficiencia_proceso.php">
+            <div class="tittle"><p>Eficiencias por proceso</p></div>
+
+            <h3>Por favor ingrese el proceso</h3>
+            
+            <div class="seleccion">
+            <input type="text" name="proceso">
+            <input type="submit" value="enviar" name="pro">
+            </div>
+            </form>
+        </section>
+
+
+        <section class="orden">
+            <form action="eficiencia_orden.php">
+            <div class="tittle"><p>Eficiencias por orden</p></div>
+
+            <h3>Por favor ingrese el número de la orden</h3>
+            
+            <div class="seleccion">
+            <input type="number" name="orden">
+            <input type="submit" value="enviar" name="ord">
+            </div>
+            </form>
+        </section>
 
 
 
